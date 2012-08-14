@@ -1,0 +1,4 @@
+-main SimpleTest
+-cp test
+-cp src
+-x SimpleTest
