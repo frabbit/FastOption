@@ -8,7 +8,7 @@ private typedef FO<T> = FastOption<Null<T>>;
 @:native("Dynamic")
 #else
 #end
-class FastOption<T> {}
+extern class FastOption<T> {}
 
 
 class FastOptions 
