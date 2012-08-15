@@ -28,7 +28,7 @@ class FastOptions
   }
   
   /* conversion */
-  @:noUsing public static inline function from <T>(v:T):FO<T> {
+  @:noUsing public static inline function from <T>(v:Null<T>):FO<T> {
     return cast v;
   }
   
